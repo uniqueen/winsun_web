@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     border: none;
+    list-style: none;
 }
 /*header start*/
 .header {
@@ -9,14 +10,19 @@
     margin: 0 auto;
     background-color: #f2f2f2;
 }
+/*
 .header ul {
     width: 930px;
     list-style: none;
     height: 69px;
     margin: 0 auto;
 }
-.header li {
-    display: inline-block;
+*/
+.other {
+    width: 930px;
+    height: 69px;
+    margin: 0 auto;
+
 }
 .logo  {
     float: left;
@@ -26,22 +32,20 @@
 }
 .header h3  {
     display: block;
-    width: 145px;
-    height: 13px;
+    height: 19px;
     font-size: 12px;
-    margin-left: 585px;
+    margin: 20px 0px 20px 650px;
 }
 .ren {
-    float: right;
-    width: 12px;
     height: 14px;
-    margin-left: 450px;
+    margin: 0 auto;
+    width: 12px;
+    margin-left: 520px;
 }
 .search {
-    width: 183px;
-    height: 29px;
-    float: right;
-    margin-left: 747px;
+/*   float: right;*/
+    height: 20px;
+    display: inline-block;
 
 }
 /*header end*/
@@ -82,6 +86,7 @@
     color: #fff;
     font-size: 14px;
     display: block;
+    height: 52px;
 
 }
 

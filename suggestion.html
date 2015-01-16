@@ -4,20 +4,42 @@
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1" />
     <link href="winsun.css" rel="stylesheet">
+    <style>
+    body {
+        font-family: 微软雅黑, 黑体, 苹果丽黑;
+    }
+    .header .view {
+        width: 930px;
+        margin: 0 auto;
+    }
+    .header h3 {
+        background: url(images/people.png) no-repeat;
+        padding-left: 20px;
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .user-box {
+        float: right;
+        margin-top: 20px;
+    }
+    .search {
+        margin-left: 0;
+    }
+    </style>
 </head>
 
 <body>
-    <!--header start        -->
+    <!--header start-->
     <div class="header">
-        <div class="other">
+        <div class="view">
             <a href="#" class="logo">
                 <img src="images/logo.png">
             </a>
-            <a href="#" class="ren">
-                <img src="images/people.png">
-            </a>
-            <h3>客户专线021—33199889</h3>
-            <input type="text" class="search">
+            <div class="user-box">
+                <h3>客户专线021—33199889</h3>
+                <input type="text" class="search">
+            </div>
         </div>
     </div>
     <!--header end-->
@@ -79,8 +101,7 @@
     <!--content end        -->
     <!--footer start        -->
     <div class="footer">
-        <a href="">
-            <img src="images/logo_bottom.png">
+        <a href=""><img src="images/logo_bottom.png">
         </a>
         <p>联系我们招贤纳士天猫店铺</p>
         <p>Copyright © 2014 沪ICP备14031892号上海闻上信息科技有限公司 所有权利均予保留</p>
