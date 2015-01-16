@@ -14,15 +14,6 @@ body {
     margin: 0 auto;
     background-color: #f2f2f2;
 }
-/*
-.header ul {
-    width: 930px;
-    list-style: none;
-    height: 69px;
-    margin: 0 auto;
-}
-*/
-
 .other {
     width: 930px;
     height: 69px;
@@ -161,4 +152,11 @@ a:link {
     height: 29px;
     display: block;
 }
+.footer a {
+    color: #333;
+}
+.footer a:hover {
+    color: #78b34a;
+}
+
 /*footer end*/
