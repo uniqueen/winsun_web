@@ -4,6 +4,9 @@
     border: none;
     list-style: none;
 }
+ body {
+        font-family: 微软雅黑, 黑体, 苹果丽黑;
+    }
 /*header start*/
 .header {
     height: 69px;
@@ -31,21 +34,18 @@
     margin-top: 18px;
 }
 .header h3  {
-    display: block;
     height: 19px;
     font-size: 12px;
-    margin: 20px 0px 20px 650px;
 }
 .ren {
     height: 14px;
     margin: 0 auto;
     width: 12px;
-    margin-left: 520px;
+
 }
 .search {
-/*   float: right;*/
+    float: right;
     height: 20px;
-    display: inline-block;
 
 }
 /*header end*/
@@ -136,7 +136,7 @@
     display: block;
     text-align: center;
     font-size: 12px;
-    padding-top: 10px;
+    padding-top: 6px;
 }
 .footer img {
     margin: 0 auto ;
