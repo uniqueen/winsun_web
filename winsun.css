@@ -97,7 +97,7 @@ mainnav a {
     color: #FFFFFF;
     padding: 1em 2em;
 }
-.sub-nav {
+.sub_nav {
     top: 70px;
     display: none;
     position: absolute;
@@ -107,13 +107,13 @@ mainnav a {
 mainnav ul li:hover a {
     border-bottom: 2px green solid;
 }
-mainnav ul li:hover .sub-nav a {
+mainnav ul li:hover .sub_nav a {
     border-bottom: none;
 }
-mainnav ul li:hover .sub-nav {
+mainnav ul li:hover .sub_nav {
     display: block;
 }
-.sub-nav li {
+.sub_nav li {
     display: block;
 }
 /*mainnav end*/
