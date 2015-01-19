@@ -68,12 +68,11 @@ body {
     height: 52px;
     margin: 0 auto;
     background-color: #3e3a3b;
+    display: block;
 }
 .mainnav ul {
-    list-style: none;
     margin: 0 auto;
     width: 725px;
-    height: 52px;
 }
 .mainnav li {
     display: inline-block;
@@ -87,15 +86,36 @@ body {
     text-align: center;
     height: 52px;
 }
+/*
 .mainnav a:visited,
 a:link {
     text-decoration: none;
 }
-.mainnav a {
-    color: #fff;
-    font-size: 14px;
+*/
+
+mainnav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 1em 2em;
+}
+.sub-nav {
+    top: 70px;
+    display: none;
+    position: absolute;
+    background: #333;
+    width: 100px;
+}
+mainnav ul li:hover a {
+    border-bottom: 2px green solid;
+}
+mainnav ul li:hover .sub-nav a {
+    border-bottom: none;
+}
+mainnav ul li:hover .sub-nav {
     display: block;
-    height: 52px;
+}
+.sub-nav li {
+    display: block;
 }
 /*mainnav end*/
 
@@ -152,7 +172,7 @@ a:link {
     height: 29px;
     display: block;
 }
-.footer a {
+.footer p a {
     color: #333;
     border-right: 1px solid #333;
     padding-right: 5px;
@@ -163,5 +183,4 @@ a:link {
 .footer a:hover {
     color: #78b34a;
 }
-
 /*footer end*/
