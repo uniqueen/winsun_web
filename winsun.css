@@ -35,10 +35,9 @@ body {
     height: 14px;
     margin: 0 auto;
     width: 12px;
-    margin-left: 445px;
+    margin-left: 315px;
 }
 .search {
-    float: right;
     height: 29px;
     border-width: 1px;
     border: 1px solid #cccccc;
@@ -62,7 +61,7 @@ body {
 }
 .trap {
     width: 130px;
-    /*    float: right;*/
+    display: inline-block;
 }
 .trap li {
     display: inline-block;
