@@ -54,13 +54,15 @@ body {
     font-weight: bold;
     color: #78b34a;
 }
-.ren, .header h3, .header h2 {
+.ren,
+.header h3,
+.header h2 {
     margin-top: 30px;
     display: inline-block;
 }
 .trap {
     width: 130px;
-    float: right;
+    /*    float: right;*/
 }
 .trap li {
     display: inline-block;
@@ -69,10 +71,12 @@ body {
     color: #999999;
     font-size: 12px;
 }
-.trap a:link, a:visited {
+.trap a:link,
+a:visited {
     text-decoration: none;
 }
 /*header end*/
+
 /*mainnav start*/
 
 .mainnav {
@@ -85,7 +89,6 @@ body {
     margin: 0 auto;
     width: 980px;
     height: 52px;
-
 }
 .mainnav li {
     display: inline-block;
@@ -106,7 +109,8 @@ body {
     border-bottom: none;
     background-color: #f2f2f2;
 }
-.mainnav a:visited, a:link {
+.mainnav a:visited,
+a:link {
     text-decoration: none;
     color: #ffffff;
 }
@@ -122,25 +126,25 @@ body {
     display: none;
     position: absolute;
     /*    background: #f2f2f2;*/
-    
     width: 114px;
     margin: 0 auto;
 }
 .mainnav ul li:hover a {
     /*    border-bottom: 2px #78b34a solid;                                                      */
-    
     border-width: 6px;
     /* color: #ffffff; */
 }
 .mainnav ul li:hover .sub_nav a {
     border-bottom: none;
-    /* color: #666666; */
+    color: #666666;
+
     /* border-bottom: 1px #666 dashed;*/
 }
 .sub_nav a:hover {
     color: red;
 }
 .mainnav ul li:hover li {
+
     height: 20px;
 }
 .mainnav ul li:hover .sub_nav {
@@ -155,6 +159,7 @@ body {
     display: block;
 }
 /*mainnav end*/
+
 /*banner start*/
 
 .banner {
@@ -163,6 +168,7 @@ body {
     background-image: url(images/banner.jpg);
 }
 /*banner end*/
+
 /*content start*/
 
 .content {
@@ -187,6 +193,7 @@ body {
     height: 140px;
 }
 /*content end*/
+
 /*footer start*/
 
 .footer {
