@@ -80,7 +80,7 @@ body {
     width: 114px;
     padding-top: 19px;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 12px;
     font-family: inherit;
     font-weight: bold;
     font-size: 100%;
@@ -92,29 +92,31 @@ a:link {
     text-decoration: none;
     color: #ffffff;
 }
-mainnav a {
+.mainnav a {
     text-decoration: none;
     color: #FFFFFF;
-    padding: 1em 2em;
 }
 .sub_nav {
-    top: 70px;
+    top: 120px;
     display: none;
     position: absolute;
-    background: #333;
-    width: 100px;
+    background: #f2f2f2;
+    width: 161px;
+    margin: 0 auto;
 }
-mainnav ul li:hover a {
-    border-bottom: 2px green solid;
+
+.mainnav ul li:hover a {
+    border-bottom: 6px green solid;
 }
-mainnav ul li:hover .sub_nav a {
+.mainnav ul li:hover .sub_nav a {
     border-bottom: none;
 }
-mainnav ul li:hover .sub_nav {
+.mainnav ul li:hover .sub_nav {
     display: block;
 }
 .sub_nav li {
     display: block;
+
 }
 /*mainnav end*/
 
