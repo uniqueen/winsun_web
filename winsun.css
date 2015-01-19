@@ -154,6 +154,11 @@ a:link {
 }
 .footer a {
     color: #333;
+    border-right: 1px solid #333;
+    padding-right: 5px;
+}
+.footer a:last-child {
+    border-right: none;
 }
 .footer a:hover {
     color: #78b34a;
