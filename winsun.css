@@ -85,15 +85,15 @@ body {
     margin: 0 auto;
     width: 980px;
     height: 52px;
+
 }
 .mainnav li {
     display: inline-block;
     width: 155px;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 13px;
     font-family: inherit;
     font-weight: bold;
-    font-size: 100%;
     text-align: center;
     height: 27px;
     padding-top: 19px;
