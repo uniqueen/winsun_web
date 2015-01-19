@@ -107,7 +107,10 @@ a:visited {
 }
 .mainnav ul li:hover .sub_nav li {
     border-bottom: none;
-    background-color: #f2f2f2;
+    padding-bottom: 8px;
+}
+.mainnav ul li:hover .sub_nav li:hover {
+    background-color: #78b34a;
 }
 .mainnav a:visited,
 a:link {
@@ -138,11 +141,13 @@ a:link {
     border-bottom: none;
     color: #666666;
 
-    /* border-bottom: 1px #666 dashed;*/
+/*     border-bottom: 1px #666 dashed;*/
 }
-.sub_nav a:hover {
-    color: red;
+/*
+.mainnav ul li:hover .sub_nav a:hover {
+    color:  #78b34a;
 }
+*/
 .mainnav ul li:hover li {
 
     height: 20px;
@@ -151,9 +156,8 @@ a:link {
     display: block;
     width: 155px;
     height: auto;
-    padding-bottom: 15px;
     background-color: #f2f2f2;
-    /*    border-top: 6px #78b34a solid;*/
+/*        border-top: 6px #78b34a solid;*/
 }
 .sub_nav li {
     display: block;
