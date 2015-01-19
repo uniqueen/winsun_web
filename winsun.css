@@ -60,6 +60,20 @@ body {
     margin-top: 30px;
     display: inline-block;
 }
+.trap {
+    width: 130px;
+    float: right;
+}
+.trap li {
+    display: inline-block;
+}
+.trap a {
+    color: #999999;
+    font-size: 12px;
+}
+.trap a:link, a:visited {
+    text-decoration: none;
+}
 /*header end*/
 
 /*mainnav start*/
@@ -171,7 +185,7 @@ a:link {
     margin: 22px auto;
 }
 .content img {
-    width：301px； height: 140px;
+    width：301px; height: 140px;
 }
 /*content end*/
 
