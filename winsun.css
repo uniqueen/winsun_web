@@ -73,6 +73,7 @@ body {
 .mainnav ul {
     margin: 0 auto;
     width: 725px;
+    height: 52px;
 }
 .mainnav li {
     display: inline-block;
@@ -86,13 +87,11 @@ body {
     text-align: center;
     height: 52px;
 }
-/*
 .mainnav a:visited,
 a:link {
     text-decoration: none;
+    color: #ffffff;
 }
-*/
-
 mainnav a {
     text-decoration: none;
     color: #FFFFFF;
