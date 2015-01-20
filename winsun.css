@@ -35,7 +35,7 @@ body {
     height: 14px;
     margin: 0 auto;
     width: 12px;
-    margin-left: 315px;
+    margin-left: 330px;
 }
 .search {
     height: 29px;
@@ -60,11 +60,24 @@ body {
     display: inline-block;
 }
 .trap {
-    width: 130px;
+    width: 110px;
     display: inline-block;
+/*    padding-left: 130px;*/
+
+}
+.trap a:hover {
+    color: #78b34a;
 }
 .trap li {
     display: inline-block;
+    border-right: 1px #a8a6a6 solid;
+    padding-right: 3px;
+    height: 14px;
+    padding-bottom: 4px;
+
+}
+.trap li:last-child {
+    border-right: none;
 }
 .trap a {
     color: #999999;
