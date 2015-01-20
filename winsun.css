@@ -108,6 +108,22 @@ a:visited {
     border-bottom: none;
     padding-bottom: 8px;
 }
+.mainnav ul li:hover a {
+/*    background-color: red;*/
+    padding: 0 auto;
+    width: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 18px;
+    padding-bottom: 12px;
+}
+.mainnav ul li:hover .sub_nav a {
+    padding-left: 46px;
+    padding-right: 44px;
+    padding-top: 19px;
+    padding-bottom: 10px;
+/*    background-color: green;*/
+}
 .mainnav ul li:hover .sub_nav li:hover {
     background-color: #78b34a;
 }
