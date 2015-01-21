@@ -140,6 +140,8 @@ a:visited {
 }
 
 .mainnav ul li a {
+    transition: background-color 2s,
+                border-bottom 2s;
     padding: 0 auto;
     padding-left: 50px;
     padding-right: 50px;
