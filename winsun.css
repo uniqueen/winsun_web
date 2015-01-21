@@ -296,7 +296,7 @@ a:link {
 
 /*footer end*/
 
-/*this is winsun second page css start*/
+/*this is winsun_tp(download) css start*/
 
 /*banner_tp start*/
 
@@ -400,18 +400,16 @@ a:link {
     padding-left: 30px;
     font-size: 16px;
     font-weight: bold;
+    padding-top: 12px;
 }
 
 .list1 li {
-    padding-bottom: 10px;
-    padding-top: 10px;
-/*    border: 2px #e6e6e6 solid;*/
     width: 203px;
     font-size: 16px;
     font-weight: bold;
     font-family: inherit;
     display: block;
-    border-bottom: 2px solid #e6e6e6;
+    height: 42px;
 }
 
 .list1 li:hover{
@@ -424,10 +422,13 @@ a:link {
     padding-left: 30px;
     font-family: inherit;
     display: block;
+    height: 42px;
+    padding-top: 12px;
 }
 
 .list1 li a:hover {
     color: #a5a7a3;
+    border-bottom: 2px solid #e6e6e6;
 }
 
 .list1 li:last-child {
@@ -504,5 +505,16 @@ a:link {
     font-family: inherit;
 }
 /*content_tp end*/
+/*this is winsun_tp(download) css end*/
 
-/*this is winsun second page css end*/
+/*this is winsun_tp(contackt) start*/
+/*content start*/
+.right_contact {
+    width: 670px;
+    height: 172px;
+    background: #f4f4f4;
+    display: inline-block;
+    border: #e6e6e6 2px solid;
+}
+/*content end*/
+/*this is winsun_tp(contact) end*/
