@@ -453,7 +453,7 @@ a:link {
     font-family: inherit;
 }
 
-.list2 li a:link;
+.list2 li a:link,
  a:visited {
     text-decoration: none;
 }
@@ -488,7 +488,7 @@ a:link {
     font-family: inherit;
 }
 
-.list3 li a:link;
+.list3 li a:link,
  a:visited {
     text-decoration: none;
 }
@@ -516,5 +516,25 @@ a:link {
     display: inline-block;
     border: #e6e6e6 2px solid;
 }
+
+.address {
+    width: 352px;
+    height: 82px;
+    margin: 0 auto;
+    display: block;
+}
+
+.address li {
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 45px;
+}
+
+.address p {
+    display: block;
+    padding-top: 6px;
+}
+
+
 /*content end*/
 /*this is winsun_tp(contact) end*/
