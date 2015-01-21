@@ -140,8 +140,7 @@ a:visited {
 }
 
 .mainnav ul li a {
-    transition: background-color 2s,
-                border-bottom 2s;
+/*    transition: background-color 2s;*/
     padding: 0 auto;
     padding-left: 50px;
     padding-right: 50px;
@@ -210,6 +209,8 @@ a:link {
 .mainnav ul li:hover .sub_nav a:hover {
     color:  #78b34a;
     background-color: #d6d6d6;
+    transition: color 1s,
+                background-color 1s;
 }
 
 .mainnav ul li:hover .sub_nav {
@@ -529,12 +530,14 @@ a:link {
 .address li {
     display: inline-block;
     font-size: 14px;
-    padding-top: 45px;
+    padding-top: 35px;
 }
 
 .address p {
     display: block;
-    padding-top: 6px;
+    padding-top: 2px;
+    margin-top: 3px;
+    margin-left: 8px;
 }
 
 
