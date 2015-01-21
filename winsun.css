@@ -62,8 +62,7 @@ body {
 .trap {
     width: 110px;
     display: inline-block;
-/*    padding-left: 130px;*/
-
+    /*    padding-left: 130px;*/
 }
 .trap a:hover {
     color: #78b34a;
@@ -74,7 +73,6 @@ body {
     padding-right: 3px;
     height: 14px;
     padding-bottom: 4px;
-
 }
 .trap li:last-child {
     border-right: none;
@@ -122,20 +120,21 @@ a:visited {
     padding-bottom: 8px;
 }
 .mainnav ul li:hover a {
-/*    background-color: red;*/
+    /*    background-color: red;*/
     padding: 0 auto;
     width: 50px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 18px;
     padding-bottom: 12px;
+    /*    display: block;*/
 }
 .mainnav ul li:hover .sub_nav a {
     padding-left: 46px;
     padding-right: 44px;
     padding-top: 19px;
     padding-bottom: 10px;
-/*    background-color: green;*/
+    /*    background-color: green;*/
 }
 .mainnav ul li:hover .sub_nav li:hover {
     background-color: #78b34a;
@@ -156,7 +155,7 @@ a:link {
     top: 120px;
     display: none;
     position: absolute;
-    /*    background: #f2f2f2;*/
+    /* background: #f2f2f2;*/
     width: 114px;
     margin: 0 auto;
 }
@@ -168,16 +167,15 @@ a:link {
 .mainnav ul li:hover .sub_nav a {
     border-bottom: none;
     color: #666666;
-
-/*     border-bottom: 1px #666 dashed;*/
+    /*     border-bottom: 1px #666 dashed;*/
 }
 /*
 .mainnav ul li:hover .sub_nav a:hover {
     color:  #78b34a;
 }
 */
-.mainnav ul li:hover li {
 
+.mainnav ul li:hover li {
     height: 20px;
 }
 .mainnav ul li:hover .sub_nav {
@@ -185,7 +183,7 @@ a:link {
     width: 155px;
     height: auto;
     background-color: #f2f2f2;
-/*        border-top: 6px #78b34a solid;*/
+    /*        border-top: 6px #78b34a solid;*/
 }
 .sub_nav li {
     display: block;
@@ -258,10 +256,10 @@ a:link {
 }
 /*footer end*/
 
-
-
 /*this is winsun second page css start*/
+
 /*banner_tp start*/
+
 .banner_tp {
     height: 257px;
     background-image: url(images/banner_tp.jpg);
@@ -292,7 +290,9 @@ a:link {
     height: 19px;
 }
 /*banner_tp end*/
+
 /*content_tp start*/
+
 .content_bg {
     background: #f2f2f2;
     margin: 0 auto;
@@ -310,7 +310,6 @@ a:link {
     float: left;
     margin-right: 15px;
     display: inline-block;
-
 }
 .right {
     width: 670px;
@@ -319,7 +318,7 @@ a:link {
     display: inline-block;
     border: #e6e6e6 2px solid;
 }
-.download  {
+.download {
     width: 455px;
     height: 184px;
     margin: 0 auto;
@@ -351,9 +350,6 @@ a:link {
     font-size: 14px;
     color: #333;
     padding-left: 30px;
-    padding-right: 60px;
-    padding-bottom: 10px;
-    padding-top: 10px;
 }
 .list1 li a:hover {
     color: #a5a7a3;
@@ -372,13 +368,60 @@ a:link {
     width: 203px;
     height: 76px;
     background: #f9f9f9;
-     margin-bottom: 20px;
+    margin-bottom: 20px;
+    border: 1px #d6d6d6 solid;
+    border-top: 2px #78b34a solid;
+}
+.list2 li {
+    padding-left: 30px;
+    font-size: 16px;
+    color: #78b34a;
+    padding-top: 8px;
+    font-weight: bold;
+}
+.list2 li a:link;
+ a:visited {
+    text-decoration: none;
+}
+.list2 li a:hover {
+    color: #333;
+    font-weight: bold;
+}
+.list2 li a {
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+/*    display: block;*/
+/*    background: red;*/
+
 }
 .list3 {
     width: 203px;
     height: 76px;
     background: #f9f9f9;
+    border: 1px #d6d6d6 solid;
+    border-top: 2px #78b34a solid;
 }
-
+.list3 li {
+    padding-left: 30px;
+    font-size: 16px;
+    color: #78b34a;
+    padding-top: 8px;
+    font-weight: bold;
+}
+.list3 li a:link;
+ a:visited {
+    text-decoration: none;
+}
+.list3 li a:hover {
+    color: #333;
+    font-weight: bold;
+}
+.list3 li a {
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+}
 /*content_tp end*/
+
 /*this is winsun second page css end*/
